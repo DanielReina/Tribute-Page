@@ -1,0 +1,48 @@
+body{
+    margin:0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    width: 90%;
+    margin: 0px auto;
+}
+#img-div{
+background-color: rgb(236, 232, 225);
+margin: 0px;
+padding: 35px;
+}
+h1{
+    margin-top: 50px;
+    font-family: fantasy;
+    font-size: 50px;
+}
+#image{
+    display: block;
+    max-width: 100%;
+           
+    margin:0px auto;
+}
+#img-caption{
+    margin: 20px;
+      color:darkslategray; 
+      font-family:'Times New Roman', Times, serif; 
+}
+#tribute-info{
+    background-color: rgb(255, 255, 255);
+    color: dimgray;
+    line-height: 30px;
+    padding: 25px;
+    text-align: justify;
+}
+h3{
+    color:black;
+}
+@media (max-width: 554px) {
+  #image{ 
+      max-width: 100%;   
+      width: 90%;
+  }
+}
